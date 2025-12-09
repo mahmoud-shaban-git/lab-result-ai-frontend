@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import type { AnalysisHistory } from '../types';
 
 interface HistoryChartProps {
