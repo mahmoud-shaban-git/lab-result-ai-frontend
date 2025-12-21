@@ -14,6 +14,10 @@ sondern sie **kontrolliert, nachvollziehbar und technisch sauber** in eine reale
 ## Screenshots
 
 ![Neuer Befund](./screen1.png)
+![Neuer Befund](./screen2.png)
+![Neuer Befund](./screen3.png)
+![Neuer Befund](./screen4.png)
+![Neuer Befund](./screen5.png)
 ## Worum geht es?
 
 Viele Menschen erhalten Laborbefunde, können diese jedoch **inhaltlich kaum einordnen**.  
