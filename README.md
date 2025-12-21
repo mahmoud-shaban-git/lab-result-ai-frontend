@@ -1,50 +1,97 @@
-# Lab Result AI Frontend
+# Lab Result AI 
 
-Ein modernes React-Frontend für die Lab Result AI API. Entwickelt mit Vite, React, TypeScript und Tailwind CSS.
+Eine **KI-gestützte Fullstack-Web-App**, die medizinische Laborwerte **verständlich für Laien erklärt**.
 
-## Voraussetzungen
+Der Fokus dieses Projekts liegt **nicht** darauf, KI als Buzzword zu verwenden,  
+sondern sie **kontrolliert, nachvollziehbar und technisch sauber** in eine reale Anwendung zu integrieren.
 
-*   Node.js (Version 16 oder neuer)
-*   Lokales Backend läuft auf `http://localhost:8080`
+**Grundidee:**
 
-## Installation
+> Klare Daten → saubere API → kontrollierter KI-Output
 
-```bash
-npm install
-```
+---
 
-## Starten
+## Worum geht es?
 
-Starten Sie den Entwicklungsserver:
+Viele Menschen erhalten Laborbefunde, können diese jedoch **inhaltlich kaum einordnen**.  
+Medizinische Fachbegriffe, Referenzbereiche und Risiken sind für Laien oft schwer verständlich.
 
-```bash
-npm run dev
-```
+Diese Anwendung nutzt KI gezielt, um:
+- medizinische Fachbegriffe verständlich zu erklären
+- Laborwerte risikobasiert einzuordnen (**ohne Diagnose**)
+- strukturierte, gut lesbare Ergebnisse zu liefern
 
-### Windows PowerShell Fehlerbehebung
+---
 
-Falls Sie in der PowerShell einen Fehler wie `Die Datei ... kann nicht geladen werden` erhalten, blockiert Ihre Ausführungsrichtlinie Skripte. Verwenden Sie stattdessen:
+## Funktionsumfang
 
-```bash
-cmd /c npm run dev
-```
+- 🧠 **KI-basierte Erklärung von Laborwerten**
+- ⚠️ **Risikolevel mit Handlungsempfehlung** (keine medizinische Diagnose)
+- 🧾 **Strukturierte Ergebnisdarstellung** in einer klaren Karten-UI
+- 📊 **Verlauf & Trendanzeige** für wiederholte Messungen
+- 📄 **PDF-Export** der Analyseergebnisse
+- 🔐 **Datenschutzfreundliche Verarbeitung**
+  - Keine dauerhafte Speicherung sensibler Daten
+  - Verlauf lokal im Browser
 
-oder
+---
 
-```bash
-npx vite
-```
+## Technischer Fokus
 
-## Funktionen
+Dieses Projekt legt besonderen Wert auf **saubere Software-Architektur**:
 
-*   **Eingabeformular**: Erfassung von Blutwerten (Parameter, Wert, Einheit, Alter, Geschlecht).
-*   **Live Analyse**: Sendet Daten an das Spring Boot Backend.
-*   **Ergebnis-Visualisierung**: Zeigt Risiko-Level (Normal, Leicht Erhöht, Kritisch) mit passenden Farben und Icons.
-*   **Responsives Design**: Optimiert für Desktop und Mobile Geräte.
+- Klar definierter **API-Vertrag** zwischen Frontend und Backend
+- **Prompt Engineering** für strukturierte, vorhersagbare JSON-Antworten
+- **Backend-Validierung & Parsing** der KI-Ausgaben
+- Trennung von:
+  - Fachlogik
+  - KI-Logik
+  - Präsentationsschicht
+- **Frontend-ready API-Design** für einfache Erweiterbarkeit
 
-## Technologien
+---
 
-*   [Vite](https://vitejs.dev/) - Schnelles Build-Tool und Dev-Server
-*   [React](https://reactjs.org/) - UI Bibliothek
-*   [TypeScript](https://www.typescriptlang.org/) - Typensicherheit
-*   [Tailwind CSS](https://tailwindcss.com/) - Utility-First CSS Framework
+## Tech Stack
+
+### Backend
+- Java  
+- Spring Boot  
+- REST API  
+- OpenAI API  
+
+### Frontend
+- React  
+- Vite  
+
+### Infrastruktur
+- Docker  
+- Render (Backend Deployment)  
+- Vercel (Frontend Deployment)  
+
+### Tools
+- Git  
+- GitHub  
+- Postman  
+
+---
+
+## Projektziel
+
+Ziel dieses Projekts ist es zu zeigen, wie **KI sinnvoll, verantwortungsvoll und kontrolliert**
+in eine reale Softwarelösung integriert werden kann —  
+nicht als Selbstzweck, sondern als **unterstützendes Werkzeug innerhalb einer stabilen Architektur**.
+
+---
+
+## Hinweis (Disclaimer)
+
+Diese Anwendung dient **ausschließlich Informationszwecken**.  
+Sie ersetzt **keine ärztliche Diagnose, Beratung oder Behandlung**.  
+Bei gesundheitlichen Fragen sollte immer medizinisches Fachpersonal konsultiert werden.
+
+---
+
+## Autor
+
+Mahmoud Shaban  
+GitHub: https://github.com/mahmoud-shaban-git
