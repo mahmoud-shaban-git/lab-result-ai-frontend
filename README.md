@@ -11,6 +11,10 @@ sondern sie **kontrolliert, nachvollziehbar und technisch sauber** in eine reale
 
 ---
 
+## Screenshots
+
+./screen1.png
+
 ## Worum geht es?
 
 Viele Menschen erhalten Laborbefunde, können diese jedoch **inhaltlich kaum einordnen**.  
